@@ -12,7 +12,7 @@ const temperature = 41
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
 
-// const score = 200
+// const score = 101
 
 // if (score > 100) {
 //     let power = "fly"
