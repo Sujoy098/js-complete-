@@ -33,3 +33,8 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+
+const objects = [{ x: 1 }, { x: 2 }, { x: 3 }];
+const sum = objects.reduce((accumulator, currentValue) => accumulator + currentValue.x,0,);
+
+console.log(sum);
