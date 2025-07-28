@@ -9,10 +9,23 @@ for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
+
+const object = { a: 1, b: 2, c: 3 };
+
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
+}
+
+// Expected output:
+// "a: 1"
+// "b: 2"
+// "c: 3"
+
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
    // console.log(programming[key]);
+   
 }
 
 // const map = new Map()
