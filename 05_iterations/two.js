@@ -1,4 +1,6 @@
-
+// do
+//   statement
+// while (condition);
 
 let index = 0
 // while (index <= 10) {
