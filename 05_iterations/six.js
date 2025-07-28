@@ -44,3 +44,23 @@ const books = [
     return bk.publish >= 1995 && bk.genre === "History"
 })
   console.log(userBooks);
+
+  //filter 
+const words = ["spray", "elite", "exuberant", "destruction", "present"];
+
+const result = words.filter((word) => word.length > 6);
+
+console.log(result);
+// Expected output: Array ["exuberant", "destruction", "present"]
+
+
+//Filtering out all small values
+const filtered1 = [12, 5, 8, 130, 44];
+const smallValue=filtered1.filter((value) => value>=10);
+console.log(smallValue);
+
+function isBigEnough(value) {
+  return value >= 10;
+}
+
+const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
