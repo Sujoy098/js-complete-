@@ -1,3 +1,12 @@
+//for each 
+const array = ["a", "b", "c"];
+
+array.forEach((element) => console.log(element));
+
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach( function (val){
