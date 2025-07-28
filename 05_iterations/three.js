@@ -3,11 +3,18 @@
 // ["", "", ""]
 // [{}, {}, {}]
 
-const arr = [1, 2, 3, 4, 5]
+const arr = [1, 2, 3, 4, 5,6]
 
 for (const num of arr) {
     //console.log(num);
 }
+
+const array = ["a", "b", "c"];
+
+for (const element of array) {
+  console.log(element);
+}
+
 
 const greetings = "Hello world!"
 for (const greet of greetings) {
