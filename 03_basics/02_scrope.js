@@ -57,3 +57,25 @@ addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+
+{
+  var x = 1;
+}
+console.log(x); // 1
+
+{
+  const x = 1;
+}
+console.log(x); // ReferenceError: x is not defined
+
+const x = "declared outside function";
+
+exampleFunction();
+
+function exampleFunction() {
+  console.log("Inside function");
+  console.log(x);
+}
+
+console.log("Outside function");
+console.log(x);

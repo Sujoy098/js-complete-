@@ -1,12 +1,15 @@
 
-
+// functions --Functions are one of the fundamental building blocks in JavaScript.
+//  A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value,
+//  but for a procedure to qualify as a function,
+//  it should take some input and return an output where there is some obvious relationship between the input and the output
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
     console.log("S");
-    console.log("H");
+    console.log("U");
+    console.log("J");
+    console.log("O");
+    console.log("Y");
+    console.log("");
 }
 
 // sayMyName()
@@ -27,6 +30,16 @@ const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
 
+function loginUserMessage(val){
+    if(val==="sujoy"){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("sujoy"))
+// console.log(loginUserMessage("su"))
 
 function loginUserMessage(username = "sam"){
     if(!username){
@@ -36,8 +49,8 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("sujoy"))
+// console.log(loginUserMessage("sujoy"))
 
 
 function calculateCartPrice(val1, val2, ...num1){
@@ -46,8 +59,22 @@ function calculateCartPrice(val1, val2, ...num1){
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
+function myFunc(theObject) {
+  theObject.make = "Toyota";
+}
+
+const myCar = {
+  make: "Honda",
+  model: "Accord",
+  year: 1998,
+};
+
+console.log(myCar.make); // "Honda"
+myFunc(myCar);
+console.log(myCar.make); // "Toyota"
+
 const user = {
-    username: "hitesh",
+    username: "SUJOY",
     prices: 199
 }
 
