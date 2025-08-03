@@ -13,15 +13,27 @@
 <script>
     const div = document.createElement('div')
     console.log(div);
-    div.className = "main"
-    div.id = Math.round(Math.random() * 10 + 1)
-    div.setAttribute("title", "generated title")
+     //div.className = "main"
+     //div.id = Math.round(Math.random() * 10 + 1)
+    //div.setAttribute("title", "generated title")
     div.style.backgroundColor = "green"
-    div.style.padding = "12px"
-    // div.innerText = "Chai aur code"
+    //div.innerText = "Chai aur code"
     const addText = document.createTextNode("Chai aur code")
     div.appendChild(addText)
 
-    document.body.appendChild(div);
+    const addText2= document.createTextNode(" sujoy is good");
+     div.appendChild(addText2)
+
+     document.body.appendChild(div);
+
+
+    const p =document.createElement('p')
+    console.log(p);
+    p.className="text"
+    p.id= 10;
+    const textmessage= document.createTextNode(" hello every one ");
+     p.appendChild(textmessage)
+
+     document.body.appendChild(p);
 </script>
 </html>
